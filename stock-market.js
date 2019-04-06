@@ -9,6 +9,9 @@ var trendMap = function (stockPrices){
     else if (stockPrices[i] > stockPrices [i+1]) {
       priceDirection.push(-1)
     }
+    else{
+      priceDirection.push(0)
+    }
   }
 
 var maxProfit = function(stockPrices){
@@ -30,7 +33,6 @@ var maxProfit = function(stockPrices){
   if (cashOut == 0){
     cashOut = -1
   }
-  console.log(priceDirection)
   return cashOut
 }
 

@@ -1,5 +1,5 @@
 var maxProfit = require('./stock-market')
 
-input = [45, 24, 35, 31, 40, 38, 11, 20]
+input = [0, 0, 100, 0, 100]
 
 console.log(maxProfit(input))
